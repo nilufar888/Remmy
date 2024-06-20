@@ -1,0 +1,146 @@
+.widget {
+  width: 1130px;
+  margin: 0 auto;
+  //   background-color: darkorange;
+
+  &__title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #3d55f9;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  &__head {
+    width: 703px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.67px;
+    text-align: center;
+    color: #071330;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  &__text {
+    width: 907px;
+    height: 33px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.04px;
+    text-align: center;
+    color: #071330;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 120px;
+  }
+
+  &__wrapp {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 16px 16px 32px 0px #07133014;
+    margin-left: 13px;
+    background-color: #7fddf0;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+
+  &__wrapp1 {
+    background-color: #5faeec;
+  }
+  &__wrapp2 {
+    background-color: #9b78fd;
+  }
+  &__wrapp3 {
+    background-color: #ef9cd0;
+  }
+  &__wrapp4 {
+    background-color: #f6845e;
+  }
+  &__wrapp5 {
+    background-color: #f9b65e;
+  }
+  &__wrapp6 {
+    background-color: #ffdd57;
+  }
+  &__wrapp7 {
+    background-color: #abe050;
+  }
+  &__wrapp8 {
+    background-color: #7bcfa6;
+  }
+  &__wrapp9 {
+    background: #b5b8c1;
+  }
+
+  &__wrapp:hover {
+    transform: rotate(45deg);
+  }
+
+  &__item {
+    width: 158px;
+    height: 104px;
+    border-radius: 12px;
+    background-color: #7fddf01a;
+    margin-right: 30px;
+    margin-bottom: 32px;
+  }
+
+  &__texts {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #071330;
+    margin-top: 35px;
+    margin-left: 13px;
+  }
+
+  &__item1 {
+    background-color: #9b78fd14;
+  }
+  &__item2 {
+    background-color: #5faeec1a;
+  }
+  &__item3 {
+    background-color: #ef9cd01a;
+  }
+  &__item4 {
+    background-color: #f6845e1a;
+  }
+  &__item5 {
+    background-color: #f9b65e1a;
+  }
+  &__item6 {
+    background-color: #ffdd571a;
+  }
+  &__item7 {
+    background-color: #abe0501a;
+  }
+  &__item8 {
+    background-color: #7bcfa61a;
+  }
+
+  &__item9 {
+    width: 535px;
+    height: 104px;
+    background-color: #f7f8fc;
+  }
+}

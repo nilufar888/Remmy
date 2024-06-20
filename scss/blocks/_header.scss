@@ -1,0 +1,67 @@
+@import "../mixins/mixin";
+@import "../colors/colors";
+
+.header {
+  width: 1440px;
+  height: 70px;
+  // background-color: aqua;
+  @include center();
+
+  &__wrapp {
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    &--right {
+      width: 977px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__logo {
+    display: block;
+  }
+
+  &__list {
+    @include center();
+    margin-left: 50px;
+  }
+
+  &__item {
+    margin-right: 20px;
+  }
+
+  &__item--link {
+    width: 89px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: black;
+  }
+
+  &__item--link:active {
+    color: $darkColor;
+  }
+
+  &_btn {
+    width: 152px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #ffff;
+    border-radius: 12px;
+    border: solid 2px #3d55f9;
+    background-color: #3d55f9;
+  }
+}
